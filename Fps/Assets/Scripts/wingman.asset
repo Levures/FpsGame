@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d87f2bebc2d6ae4eb13e4e272854b0b, type: 3}
+  m_Name: wingman
+  m_EditorClassIdentifier: 
+  name: Gun
+  damage: 55
+  headDamage: 105
+  range: 1000
+  rateOfFire: 0.35
+  ammoCount: 6
+  shootSounds:
+  - {fileID: 8300000, guid: 98563496599e43d4fbede47b1e145066, type: 3}
+  - {fileID: 8300000, guid: 14e6bbc69e1ed23438dd312682f4d181, type: 3}
+  - {fileID: 8300000, guid: d3c75045ee216c94ea8647734ba39519, type: 3}
+  - {fileID: 8300000, guid: a7e6287749b920f469068702f9ee7f2b, type: 3}
+  - {fileID: 8300000, guid: f8f400f6b7e5fb74280807c883cd3cd9, type: 3}
+  - {fileID: 8300000, guid: a5a43a8daa7c39d4d90b8e585034b049, type: 3}
+  reloadSounds:
+  - {fileID: 8300000, guid: a56ad71f74a275f4d9a1322b998a92c9, type: 3}
+  - {fileID: 8300000, guid: 8107e531230d24246a86a992eaa9e8db, type: 3}
+  - {fileID: 8300000, guid: 6d04af0080404b64e89c492f0460d637, type: 3}
+  - {fileID: 8300000, guid: 44be1183cbb2f324eb70ee40d031c5fb, type: 3}
+  hitSounds:
+  - {fileID: 8300000, guid: faf3e21d7da08e541a29f23d21c00cb1, type: 3}
